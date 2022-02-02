@@ -222,7 +222,7 @@ function send() {
 
 function sendd() {
     let fuel = document.getElementById('fuelss');
-    console.log('ov');
+
     if (fuel.style.display == 'none') {
         fuel.style.display = 'block';
     } else {
@@ -240,13 +240,15 @@ function senddd() {
 };
 
 function sendddd() {
-    let fuel = document.getElementById('fuelsss');
+    let fuel = document.getElementById('fuelssss');
     if (fuel.style.display == 'none') {
         fuel.style.display = 'block';
     } else {
         fuel.style.display = 'none';
     }
 };
+
+
 
 function book() {
 
@@ -260,3 +262,32 @@ function sem() {
     name.style.display = 'none';
 
 }
+
+function sett() {
+    let fuel = document.getElementById('summ');
+    if (fuel.style.display == 'none') {
+        fuel.style.display = 'block';
+    } else {
+        fuel.style.display = 'none';
+    }
+};
+
+function settt() {
+
+    let fue = document.getElementById('numm');
+    if (fue.style.display == 'none') {
+        fue.style.display = 'block';
+    } else {
+        fue.style.display = 'none';
+    }
+};
+
+function setttt() {
+
+    let fue = document.getElementById('num');
+    if (fue.style.display == 'none') {
+        fue.style.display = 'block';
+    } else {
+        fue.style.display = 'none';
+    }
+};
